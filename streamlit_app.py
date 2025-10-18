@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
-from main_module import AgentCoordinator  # or adjust import path
+from app import AgentCoordinator  # or adjust import path
 
 st.title("🌾 Sustainable Agriculture AI System")
 st.write("Predictive irrigation & crop-stress forecasting on Indian data.")
